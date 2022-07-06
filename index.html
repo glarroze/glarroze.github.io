@@ -51,6 +51,9 @@ body, html {
   }
 }
 </style>
+  <head>
+    <script type="application/javascript" src="https://hubiaiwebstore.blob.core.windows.net/public/apps/webchat.bundle.js"></script>
+  </head>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -80,7 +83,7 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <img src="https://hubcollab.com/wp-content/uploads/2021/03/Gilles-Larroze-400x250.png" />    
+    <img src="https://www.hubi.ai/wp-content/uploads/2022/02/hubi-ai-logo-site-web.png" />    
   </div>
 </div>
 
@@ -252,7 +255,7 @@ body, html {
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
- 
+ <div id="hubi-webchat"></div>
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -283,6 +286,6 @@ function toggleFunction() {
     }
 }
 </script>
-
+<script>window.HubiWebchat.render({ directlineKey: 'qdxbNzdS35I.LgbxNkiO2ppU67UgvMCTp2amjw4lHt_1wtTzsdEMHhE', appId: '70533678-41C6-44C9-8C3A-E2D4D6D2255B'}, document.getElementById('hubi-webchat'))</script>
 </body>
 </html>
